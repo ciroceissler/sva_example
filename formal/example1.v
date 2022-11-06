@@ -9,8 +9,8 @@
 //------------------------------------------------------------------------------
 
 module example1(A);
-  signed input [31:0] A;
-  signed wire  [31:0] B;
+  input signed [31:0] A;
+  wire  signed [31:0] B;
 
   assign B = A < 0 ? -A : A;
 

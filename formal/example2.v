@@ -8,9 +8,9 @@
 //------------------------------------------------------------------------------
 
 module example2(A, B, C);
-  signed input  [31:0] A;
-  signed input  [31:0] B;
-  signed output [63:0] C;
+  input  signed [31:0] A;
+  input  signed [31:0] B;
+  output signed [63:0] C;
 
   assign C = A*B;
 
